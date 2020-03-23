@@ -1,4 +1,4 @@
-package org.otaibe.nginx.with.eureka.demo.microservice.config;
+package org.otaibe.nginx.with.eureka.demo.producer.config;
 
 import io.quarkus.runtime.StartupEvent;
 import lombok.Getter;

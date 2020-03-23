@@ -1,10 +1,10 @@
-package org.otaibe.nginx.with.eureka.demo.microservice.web;
+package org.otaibe.nginx.with.eureka.demo.producer.web;
 
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import org.otaibe.nginx.with.eureka.demo.microservice.service.NginxService;
+import org.otaibe.nginx.with.eureka.demo.producer.service.NginxService;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

@@ -1,4 +1,4 @@
-package org.otaibe.nginx.with.eureka.demo.microservice.service;
+package org.otaibe.nginx.with.eureka.demo.producer.service;
 
 import io.vertx.mutiny.core.Vertx;
 import lombok.AccessLevel;
@@ -15,7 +15,6 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import java.text.MessageFormat;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;

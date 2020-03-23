@@ -1,4 +1,4 @@
-package org.otaibe.nginx.with.eureka.demo.microservice.web;
+package org.otaibe.nginx.with.eureka.demo.producer.web;
 
 import io.quarkus.test.junit.NativeImageTest;
 
