@@ -20,6 +20,9 @@ public class NginxRestControllerTest {
                 .body(not(containsString(NginxService.DEMO_MICROSERVICE_SERVERS_PLACEHOLDER)))
                 .body(not(containsString(NginxService.SERVER_PORT_PLACEHOLDER)))
                 .body(not(containsString(NginxService.SERVER_BAD_GATEWAY_PORT_PLACEHOLDER)))
+                .body(not(containsString(NginxService.SSL_ON_PLACEHOLDER)))
+                .body(not(containsString(NginxService.SSL_CERTIFICATE_NAME_PLACEHOLDER)))
+                .body(not(containsString(NginxService.SSL_CONFIGURATION_PLACEHOLDER)))
         ;
     }
 

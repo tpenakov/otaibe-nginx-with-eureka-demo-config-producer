@@ -10,7 +10,7 @@
         <!--<otaibe-commons-quarkus.groupId>org.otaibe.commons.quarkus</otaibe-commons-quarkus.groupId>-->
         <otaibe-commons-quarkus.groupId>com.github.tpenakov.otaibe-commons-quarkus</otaibe-commons-quarkus.groupId>
         <!--<org.otaibe.commons.quarkus.version>00.00.05-SNAPSHOT</org.otaibe.commons.quarkus.version>-->
-        <org.otaibe.commons.quarkus.version>00.00.05</org.otaibe.commons.quarkus.version>
+        <org.otaibe.commons.quarkus.version>00.00.05.01</org.otaibe.commons.quarkus.version>
         <quarkus-plugin.version>1.3.0.Final</quarkus-plugin.version>
         <quarkus.platform.version>1.3.0.Final</quarkus.platform.version>
 
@@ -49,6 +49,11 @@
         <dependency>
             <groupId>${otaibe-commons-quarkus.groupId}</groupId>
             <artifactId>otaibe-commons-quarkus-actuator</artifactId>
+            <version>${org.otaibe.commons.quarkus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${otaibe-commons-quarkus.groupId}</groupId>
+            <artifactId>otaibe-commons-quarkus-nginx-eureka</artifactId>
             <version>${org.otaibe.commons.quarkus.version}</version>
         </dependency>
 
