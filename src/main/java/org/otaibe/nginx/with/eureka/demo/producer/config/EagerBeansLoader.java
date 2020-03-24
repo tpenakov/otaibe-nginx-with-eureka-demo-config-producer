@@ -24,7 +24,7 @@ public class EagerBeansLoader {
 
     public void init(@Observes StartupEvent event) throws Exception {
         log.info("init start");
-        getEurekaClient().registerApp(); //not enough just to inject bean ...
+        getEurekaClient().getAllApps(); //not enough just to inject bean ...
         log.info("init end");
     }
 }

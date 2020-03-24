@@ -24,6 +24,8 @@ RUN chmod 775 /work /work/application \
   && chmod -R "g+rwX" /work \
   && chown -R 1001:root /work
 
+ENV QUARKUS_SERVLET_CONTEXT_PATH=/
+
 EXPOSE 24456
 USER 1001
 
