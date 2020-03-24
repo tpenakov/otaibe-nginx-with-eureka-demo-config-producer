@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "pattern": ".*META-INF/resources/.*"
+    },
+    {
+      "pattern": ".*nginx/conf.d/.*\\.conf"
+    },
+    {
+      "pattern": ".*\\.yml$"
+    },
+    {
+      "pattern": ".*git\\.properties$"
+    }
+  ]
+}
