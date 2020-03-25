@@ -4,6 +4,27 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Starting the producer
+
+From project dir (not necessary) run the following script:
+```
+    bash src/test/resources/shell/docker_run.sh
+```
+
+## Starting the nginx
+
+From project dir (not necessary) run the following script:
+```
+    bash src/test/resources/shell/docker_run_nginx.sh
+```
+
+## Running the curl tests
+
+From project dir (not necessary) run the following script:
+```
+    bash src/test/resources/shell/curl_tests.sh
+```
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
